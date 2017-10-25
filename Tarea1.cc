@@ -5,13 +5,13 @@ int esprimo(int x){
   int flag=0;
   for (int i=2; i<= (x/2); i++)
     {
-      if(x%i==0)
+      if((x%i)==0)
 	flag=1;
     }
       return flag;
 }
   int main(){
-  int p, S=12;
+  int p=0, S=12;
   cout<<"Ingrese un numero p "<<endl;
   cin>>p;
   do{
